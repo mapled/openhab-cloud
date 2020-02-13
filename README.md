@@ -300,7 +300,7 @@ docker system prune
 
 Navigate your browser to ```https://<your-openhab-cloud-host>``` and log in (e.g. https://myopenhab.domain.com). 
 
-If it's the first time you're starting up, make sure you have `registration_enabled` set to `true` in the `config-docker.yml` file so you can create an initial user login. 
+If it's the first time you're starting up, make sure you have `registration_enabled` set to `true` in the `config-docker.json` file so you can create an initial user login. 
 
 Assuming you don't plan to run an open system, switch this back to `false` once you've registered and restart.
 
